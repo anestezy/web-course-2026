@@ -131,7 +131,7 @@ body {
   padding: 48px 16px;
   color: #ffffff;
   background: linear-gradient(rgba(31, 59, 115, 0.88), rgba(31, 59, 115, 0.88)),
-              url("img/hero.png") center / cover no-repeat;
+              url("hero.png") center / cover no-repeat;
 }
 
 .hero-title {
