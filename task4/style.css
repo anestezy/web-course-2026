@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 480px;
+    margin: 40px auto;
+}
+
+#guessInput {
+    width: 120px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+button {
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+#message {
+    font-weight: bold;
+}
+
+#history li {
+    margin: 4px 0;
+}
