@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 480px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    gap: 8px;
+    width: 308px;
+    margin: 20px auto;
+}
+
+.pad {
+    height: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#pad0 { background: #1e6e1e; }
+#pad1 { background: #a01e1e; }
+#pad2 { background: #a0951e; }
+#pad3 { background: #1e4ea0; }
+
+#pad0.active { background: #52e052; }
+#pad1.active { background: #e05252; }
+#pad2.active { background: #e0d252; }
+#pad3.active { background: #5282e0; }
+
+#startBtn {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+#message {
+    font-weight: bold;
+}
+
+#message.error {
+    color: red;
+}
