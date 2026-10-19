@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная №7 — Лента постов с бесконечным скроллом</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Лента постов</h1>
+
+    <input type="text" id="search-input" placeholder="Поиск по заголовку...">
+
+    <div id="posts-list"></div>
+
+    <div id="loader" class="hidden">Загрузка...</div>
+    <div id="error-message" class="hidden"></div>
+    <div id="end-message" class="hidden">Больше постов нет</div>
+    <div id="empty-message" class="hidden">Ничего не найдено</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
