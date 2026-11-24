@@ -1,7 +1,10 @@
 {
   "functions": {
     "api/index.js": {
-      "includeFiles": "node_modules/better-sqlite3/**"
+      "includeFiles": [
+        "server/**",
+        "node_modules/better-sqlite3/**"
+      ]
     }
   },
   "rewrites": [
