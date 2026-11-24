@@ -1,8 +1,7 @@
 const Database = require('better-sqlite3');
 const path = require('path');
 
-// На Vercel файловая система временная, поэтому база живёт в /tmp;
-// локально, как и раньше, — файл рядом с кодом
+
 const dbPath = process.env.VERCEL
   ? path.join('/tmp', 'database.sqlite')
   : path.join(__dirname, 'database.sqlite');
